@@ -21,8 +21,7 @@
 	<?php
 
 	require 'fun_stuff.php';
-	$all_comments = 0;
-
+	$all_comments = get_comment_count($adventure);
 	?>
 
 	<div class="row">
