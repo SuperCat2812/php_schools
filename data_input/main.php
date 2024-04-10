@@ -8,11 +8,11 @@ custom_date($day, $month, $year, $country);
 function custom_date($day, $month, $year, $country)
 {
     if ($country == 'sk') {
-        echo $day." day ". $month." month ". $year." year ". $country;
+        echo $day . " day " . $month . " month " . $year . " year " . $country;
     } elseif ($country == 'us') {
-        echo $month." month ". $day." day ". $year." year ". $country;
+        echo $month . " month " . $day . " day " . $year . " year " . $country;
     } elseif ($country == 'ja') {
-        echo $year." year ". $month."month". $day." day ". $country;
+        echo $year . " year " . $month . "month" . $day . " day " . $country;
     }
 }
 ?>

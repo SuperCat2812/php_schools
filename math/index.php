@@ -16,9 +16,9 @@
         if ($d > 0) {
             echo "2kr";
             $x1 = number_format((-$b + sqrt($d)) / (2 * $a), 0, ',', '&nbsp;');
-            
+
             $x2 = number_format((-$b - sqrt($d)) / (2 * $a), 0, ',', '&nbsp;');
-            
+
             echo "<br>" . $x1 . "  " . $x2;
         } elseif ($d == 0) {
             echo "1kr";
