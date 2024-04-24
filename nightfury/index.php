@@ -22,7 +22,7 @@
 <body>
 	<?php
 	include 'header.php';
-	
+
 	echo '<main>
 		<article>
 			<header class="post-header">
