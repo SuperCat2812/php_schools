@@ -1,10 +1,14 @@
 <?php
 
 require 'vendor/autoload.php';
-
 use users\user;
 use users\Admin;
+use Whoops\Run;
+use Whoops\Handler\PrettyPageHandler;
 
+$whoops = new Run();
+$whoops->pushHandler(new PrettyPageHandler());
+$whoops->register();
 $User = [
     new user(
         'Ivan',
