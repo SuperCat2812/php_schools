@@ -1,6 +1,6 @@
 <?php
 namespace users;
-class User
+class Users
 {
     public $first_name;
     public $last_name;
