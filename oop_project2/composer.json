@@ -1,10 +1,10 @@
 {
-    "autoload": {
-        "psr-4": {
-          "users\\": "src"
-        }
-      },
-    "require": {
-        "filp/whoops": "^2.15"
+  "autoload": {
+    "psr-4": {
+      "users\\": "src"
     }
+  },
+  "require": {
+    "filp/whoops": "^2.15"
+  }
 }

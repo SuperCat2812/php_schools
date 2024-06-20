@@ -1,5 +1,7 @@
 <?php
+
 namespace users;
+
 class Users
 {
     public $first_name;

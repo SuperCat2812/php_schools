@@ -1,6 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
+
 use users\user;
 use users\Admin;
 use Whoops\Run;
