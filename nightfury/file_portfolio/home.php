@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Nightfury</title>
+	<title>Nightfury_home/home</title>
 
 	<link rel="stylesheet"
 		href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;subset=latin,latin-ext">
