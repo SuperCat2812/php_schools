@@ -1,12 +1,23 @@
 <?php include "_partials/header.php" ?>
 
+
     <div class="page-header">
         <h1>VERY MUCH TODO LIST</h1>
     </div>
-
+<?php
+$data = $database->select('items','text');
+echo '<pre>';
+print_r($data);
+echo '</pre>';
+?>
     <ul class="list-group col-sm-6">
-        <li class="list-group-item">you very much need to do this</li>
-        <li class="list-group-item">but also this other thing</li>
+        <?php
+        foreach ($data as $item) {
+            echo '<li class="list-group-item">'.$item.'</li>';
+        }
+        ?>
+<!--        <li class="list-group-item">you very much need to do this</li>-->
+<!--        <li class="list-group-item">but also this other thing</li>-->
     </ul>
 
     <form action="_inc/add-new.php" class="col-sm-6" method="post">

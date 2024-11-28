@@ -15,7 +15,6 @@ require_once 'vendor/autoload.php';
 
 // connect to db
 use Medoo\Medoo;
-
 $database = new Medoo([
     'type' => 'mysql',
     'host' => 'localhost',
@@ -24,6 +23,7 @@ $database = new Medoo([
     'password' => '',
     'charset' => 'utf8'
 ]);
+
 
 echo '<pre>';
 print_r($database->info());
