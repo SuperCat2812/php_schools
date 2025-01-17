@@ -1,4 +1,4 @@
-<?php require "_inc/config.php" ?>
+<?php require_once "_inc/config.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>todoapp</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
 
 </head>

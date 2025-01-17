@@ -13,6 +13,9 @@ error_reporting(-1);
 
 require_once 'vendor/autoload.php';
 
+//global variables
+$site_url='http://localhost/todoapp/';
+
 // connect to db
 use Medoo\Medoo;
 $database = new Medoo([
@@ -25,6 +28,6 @@ $database = new Medoo([
 ]);
 
 
-echo '<pre>';
-print_r($database->info());
-echo '</pre>';
+//echo '<pre>';
+//print_r($database->info());
+//echo '</pre>';
