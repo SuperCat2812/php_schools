@@ -33,7 +33,7 @@ $data = $database->select('items','text');
             <input name="id" type="hidden" value="<?php echo $_GET['id'] ?>">
             <input type="submit" value="edit item" class="brn-sm btn-danger">
             <span class="controls">
-                <a href="<?php echo $site_url ?>" class="back-link text-muted">Back</a>
+                <a href="<?php echo $base_url ?>" class="back-link text-muted">Back</a>
             </span>
         </p>
     </form>

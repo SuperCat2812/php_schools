@@ -9,12 +9,13 @@ error_reporting(-1);
 //require '';
 //require_once '';
 
+
 // require stuff
 
 require_once 'vendor/autoload.php';
 
 //global variables
-$site_url='http://localhost/todoapp/';
+$base_url='http://localhost/todoapp/';
 
 // connect to db
 use Medoo\Medoo;

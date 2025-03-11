@@ -6,19 +6,18 @@
     </div>
 <?php
 $data = $database->select('items',['id','text']);
-echo '<pre>';
-print_r($data);
-echo '</pre>';
+//echo '<pre>';
+//print_r($data);
+//echo '</pre>';
 ?>
-    <ul class="list-group col-sm-6">
+    <ul id="item-list" class="list-group col-sm-6">
         <?php
         foreach ($data as $item) {
-            echo '<li class="list-group-item">';
+            echo '<li id="item-'.$item['id'].'"class="list-group-item">';
             echo $item['text'];
             echo '<div class="controls pull-right">';
             echo ' <a href="edit.php?id='.$item['id'].'" class="edit-link">edit</a>';
             echo ' <a href="delete.php?id='.$item['id'].'" class="delete-link glyphicon text-muted glyphicon-remove"></a>';
-
             echo '</div>';
             echo '</li>';
         }

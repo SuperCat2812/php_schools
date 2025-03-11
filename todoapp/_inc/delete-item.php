@@ -6,9 +6,7 @@
 include 'config.php';
 
 //update item
-$affected = $database->update("items", [
-    'text' => $_POST['message']
-],[
+$affected = $database->delete("items", [
     'id' => $_POST['id']
 ]);
 

@@ -9,9 +9,7 @@
     top: 2.5px;
 }
 
-.list-group-item .controls{
-    display: none;
-}
-.list-group-item:hover .controls{
-    display: block;
+.list-group-item{
+    color: #333;
+    background-color: #fff;
 }
